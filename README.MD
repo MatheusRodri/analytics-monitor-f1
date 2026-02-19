@@ -1,7 +1,5 @@
 # 🏎️ F1 Data Pipeline & Analytics
 
-> This project has the objective an extraction, tranformation and analysis of Formula 1 data, using the FastF1 library to consume the data.
-
 ## 📋 Summary
 
 - [📖 About Project](#about-project)
@@ -10,25 +8,28 @@
 - [🚀 How to run](#how-to-run)
 - [👨‍💻 Authors](#authors)
 
-## 📖 About Project <a name="about-project"></a>
+## 📖 About Project <a id="about-project"></a>
 
 The project automatically extracts data from the FastF1 library, transforms it and stores it in a structured format for analysis. The data is then analyzed to provide insights into driver performance, team strategies, and race-related metrics.
 
-## 🛠️ Technologies used <a name="technologies-used"></a>
+## 🛠️ Technologies used <a id="technologies-used"></a>
 
 - Python
     - FastF1
     - Pandas
 - Power BI
 
-## 🏗️ Achitecture <a name="architecture"></a>
+## 🏗️ Achitecture <a id="architecture"></a>
 
-- Extraction: Extracts data from the FastF1 library
-- Transformation: Transforms the data into a structured format
-- Storage: Stores the transformed data in a structured format for analysis
-- Load: Load the data into Power BI for analysis and visualization
-
-## 🚀 How to run <a name="how-to-run"></a>
+```mermaid
+graph LR
+    A[🏎️ FastF1 ] -->| Ingestion | B(🐼 Pandas )
+    
+    
+    style A fill:#8B0000,stroke:#333,stroke-width:2px,color:#fff
+    style B fill:#FFFF00,stroke:#333,stroke-width:2px,color:#000
+```
+## 🚀 How to run <a id="how-to-run"></a>
 
 - Clone the repository
 - Open the project in terminal
@@ -42,4 +43,6 @@ The project automatically extracts data from the FastF1 library, transforms it a
 
 
 
-## 👨‍💻 Authors <a name="authors"></a>
+## 👨‍💻 Authors <a id="authors"></a>
+
+[Matheus Rodrigues](hhttps://www.linkedin.com/in/matheus-rodrigues-mrj/)
