@@ -31,15 +31,19 @@ graph LR
 ```
 ## 🚀 How to run <a id="how-to-run"></a>
 
-- Clone the repository
-- Open the project in terminal
-- Execute the followings commands:
-    - Create a virtual environment: `python -m venv .venv`
-    - Activate the virtual environment:
-        - Windows: `.venv\Scripts\activate`
-        - Linux/Mac: `source .venv/bin/activate`
-    - Install the dependencies: `pip install -r requirements.txt`
-- Run the `data.ipynb` notebook to extract and transform the data
+This project can be run in two ways: using Databricks or locally.
+- Locally:
+    - Clone the repository
+    - Open the project in terminal
+    - Execute the followings commands:
+        - Create a virtual environment: `python -m venv .venv`
+        - Activate the virtual environment:
+            - Windows: `.venv\Scripts\activate`
+            - Linux/Mac: `source .venv/bin/activate`
+        - Install the dependencies: `pip install -r requirements.txt`
+    - Run the `data.ipynb` notebook to extract and transform the data
+- Databricks:
+    
 
 
 
